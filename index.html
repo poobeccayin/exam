@@ -2,61 +2,96 @@
 <head>
     <title>Timeline of Github</title>
     <style>
-
+        h1{
+            color:#3a5795
+        }
+        .first{
+            color:red;
+            background-color:lightcoral
+        }
+        .second{
+            color:darkorange;
+            background-color:lightsalmon
+        }
+        .third{
+            color:darkgoldenrod;
+            background-color:lightgoldenrodyellow
+        }
+        .fourth{
+            color:green; 
+            background-color:lightgreen
+        }
+        .fifth{
+            color:blue;
+            background-color:lightblue
+        }
+        img{
+            width:500px
+        }
+        #first-row{
+            background-color:#3a5795
+        }
+        #second-row{
+            background-color:cornflowerblue
+        }
+        #third-row{
+            background-color:lightblue
+        }
+        
         
     </style>
 </head>
 <body>
     <h1>The Timeline of Github</h1>
     <ul>
-        <li style="color:red; background-color:lightcoral">
+        <li class=first>
             <h2>Conception, initial release, core features (2008)</h2><br>
-            <a href="https://logos-marques.com/github-logo/"><img src="https://logos-marques.com/wp-content/uploads/2021/03/GitHub-Logo-2008-500x283.png" width="500px"></a><br>
+            <a href="https://logos-marques.com/github-logo/"><img src="https://logos-marques.com/wp-content/uploads/2021/03/GitHub-Logo-2008-500x283.png"></a><br>
             Source: GitHub Logo PNG 2008-2013. 2023. Logos Marques. (https://logos-marques.com/github-logo/)
         </li>
 
-        <li style="color:darkorange; background-color:lightsalmon">
+        <li class=second>
             <h2>Continued growth and product release, including GitHub Enterprise (2009-1013)</h2><br>
-            <a href="https://github.blog/2019-01-22-whats-new-in-github-enterprise/"><img src="https://github.blog/wp-content/uploads/2019/01/GHE_Enterprise_800x418@2x1.png?resize=1600%2C836" width="500px"></a><br>
+            <a href="https://github.blog/2019-01-22-whats-new-in-github-enterprise/"><img src="https://github.blog/wp-content/uploads/2019/01/GHE_Enterprise_800x418@2x1.png?resize=1600%2C836"></a><br>
             Source: Jarryd McCree. GitHub Enterprise Logo. 2019. GitHub.blog. (https://github.blog/2019-01-22-whats-new-in-github-enterprise/)
         </li>
 
-        <li style="color:darkgoldenrod; background-color:lightgoldenrodyellow">
+        <li class=third>
             <h2>Continued outreach, product enhancement and development, including Electron and Atom, and CEO change (2013-2015)</h2><br>
-            <a href="https://en.wikipedia.org/wiki/Electron_(software_framework)"><img src="https://upload.wikimedia.org/wikipedia/commons/e/ed/Electron_20.0.3_screenshot.png" width="500px"></a><br>
+            <a href="https://en.wikipedia.org/wiki/Electron_(software_framework)"><img src="https://upload.wikimedia.org/wikipedia/commons/e/ed/Electron_20.0.3_screenshot.png"></a><br>
             Source: OpenJS Foundation VulcanSphere - Self-taken. Wikipedia (https://en.wikipedia.org/wiki/Electron_(software_framework)#/media/File:Electron_20.0.3_screenshot.png)
         </li>
 
-        <li style="color:green; background-color:lightgreen">
+        <li class=fourth>
             <h2>Change in pricing model (2015-present)</h2>
-            <a href="https://analyticsindiamag.com/8-open-source-github-repositories-that-are-trending-right-now/"><img src="https://149695847.v2.pressablecdn.com/wp-content/uploads/2021/07/Untitled-design-22-1-1536x864.jpg" width="500px"></a><br>
+            <a href="https://analyticsindiamag.com/8-open-source-github-repositories-that-are-trending-right-now/"><img src="https://149695847.v2.pressablecdn.com/wp-content/uploads/2021/07/Untitled-design-22-1-1536x864.jpg"></a><br>
             Source: Debolina Biswas. 2021. analyticsindiamag. (https://analyticsindiamag.com/8-open-source-github-repositories-that-are-trending-right-now/)
         </li>
 
-        <li style="color:blue; background-color:lightblue">
+        <li class=fifth>
             <h2>Reports having ~100 million users, making it the largest host of source code in the world</h2><br>
-            <a href="https://phirebase.com/blog/github-a-web-based-git-repository-hosting-service/"><img src="https://phirebase.com/wp-content/img/2016/12/github-768x501.jpg" width="500px"></a><br>
+            <a href="https://phirebase.com/blog/github-a-web-based-git-repository-hosting-service/"><img src="https://phirebase.com/wp-content/img/2016/12/github-768x501.jpg"></a><br>
             Source: Phirebase. (https://phirebase.com/blog/github-a-web-based-git-repository-hosting-service/)
 
         </li>
     </ul>
 
-    <table border="2px">
-        <tr>
+    <table border=2px>
+        <tr id="first-row">
             <th></th>
             <th></th>
             <th></th>
             <th></th>
             <th></th>
         </tr>
-        <tr>
+        <tr id="second-row">
             <td>Milestone</td>
             <td>Conception, initial release</td>
             <td>Continued growth and product release</td>
             <td>Continued outreach, product enhancement and development</td>
             <td>Change in pricing model</td>
         </tr>
-        <tr>
+        <tr id="third-row">
             <td>Date</td>
             <td>2008</td>
             <td>2009</td>
