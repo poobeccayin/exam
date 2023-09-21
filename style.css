@@ -1,0 +1,35 @@
+h1{
+    color:#3a5795
+}
+.first{
+    color:red;
+    background-color:lightcoral
+}
+.second{
+    color:darkorange;
+    background-color:lightsalmon
+}
+.third{
+    color:darkgoldenrod;
+    background-color:lightgoldenrodyellow
+}
+.fourth{
+    color:green; 
+    background-color:lightgreen
+}
+.fifth{
+    color:blue;
+    background-color:lightblue
+}
+img{
+    width:500px
+}
+#first-row{
+    background-color:#3a5795
+}
+#second-row{
+    background-color:cornflowerblue
+}
+#third-row{
+    background-color:lightblue
+}
